@@ -1,9 +1,27 @@
-# 334. Increasing Triplet Subsequence
-# Medium
+
+class C:
+    def triplet(self,nums):
+       
+        ans = [nums[i] < nums[i+1] and nums[i+1] < nums[i+2]  for i in range (len(nums))  if i+2 < len(nums) ]
+        print(ans)
+     
+        for i in ans:
+            if i == True:
+                return 'true'
+       
+        return 'false'
+        
+obj=C()
+nums = [2,1,5,0,4,6]
+result= obj.triplet(nums)
+print(result)
+
+
+# Increasing continue Triplet Subsequence
 # Topics
 # premium lock icon
 # Companies
-# Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
+# Given an integer array nums, return true if there exists a triple of indices (i, j, k) such that i < j < k are consecutives and nums[i] < nums[j] < nums[k]. If no such indices exists, return false.
 
  
 
