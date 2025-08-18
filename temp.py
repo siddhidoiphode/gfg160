@@ -1,5 +1,8 @@
 
-print("ch","hi")
+s='-12'
+i=int(s)
+print(s,i)
+
 
 
 
