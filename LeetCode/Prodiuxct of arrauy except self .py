@@ -1,3 +1,27 @@
+
+
+
+####################   more time    ######################
+# from math import prod
+# class Solution:
+#     def productExceptSelf(self, nums: List[int]) -> List[int]:
+#         li=[]
+#         for i in range(0,len((nums))):
+#             mul= prod(nums[:i]) * prod(nums[i+1:])
+#             # print("1", prod(nums[:i]))
+#             # print("1", prod(nums[:i]))
+#             # print(mul)
+#             li.append(mul)
+
+#         return li
+
+
+
+
+
+
+
+
 # 238. Product of Array Except Self
 # Medium
 # Topics
