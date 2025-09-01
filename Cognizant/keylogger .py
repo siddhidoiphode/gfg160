@@ -25,4 +25,29 @@
 
 # For 12, you can take 1,2 that is ab, or you can take l.\\
 
+digits="1234"
+alpha = { str(i): chr(96+i) for i in range(1,27) }
+print(alpha)
+n=len(digits)
+result = []
+
+# alpha = ['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z']
+# nums =  [ 1 , 2 , 3 , 4 , 5, 6 , 7 , 8 , 9 , 10 , 11 ,12, 13, 14 ,15, 16 ,17, 18, 19, 20, 21, 22, 23, 24, 25, 26]
+
+# x='1234'
+# y=list(x)
+# print(y)
+# row=''
+# for i in y:
+#     if int(i) in nums:
+#         ind=nums.index(int(i))
+#         row+=alpha[ind]
+
+# print(row)
+
+# for i in range(len(x)):
+#     ele = x[i:i+2]    
+#     if ele in x:
+#         print(row[])
+#     print(ele)
 
