@@ -10,6 +10,7 @@ def lenString(s):
     return lenString(s)
 
 
-s='siddhunkk'
+s='siddhu'
 print("Length of string is ",lenString(s))
+
 
