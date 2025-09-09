@@ -1,4 +1,5 @@
 
+
 s='  abc    efg  hij   hj '
 ans=""
 temp=''
@@ -29,3 +30,16 @@ print(f'" {ans} "')
 #         r=ans[i][::-1]
 #         print(r ,end=" ")
 
+
+
+s='  abc    efg  hij   hj '
+ans=""
+temp=''
+for i in s:
+    if i==" ":
+        ans+=temp[::-1]+i
+        temp=''
+    else:
+        temp+=i
+
+print(ans)

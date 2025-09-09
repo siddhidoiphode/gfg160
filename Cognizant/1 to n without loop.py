@@ -1,7 +1,8 @@
 
+
 n=5
-s=" ".join(map(str, range (1,n+1)))
-print(s)
+string=" ".join(map(str, range (1,n+1)))
+print(string)
 
 
 # n=5

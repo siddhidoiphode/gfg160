@@ -1,18 +1,18 @@
+
 itemlist=[]
 n=int(input("Enter number of items: "))
 for i in range(n):
     # ele=input().split(",")
     itemlist.append(input().split(","))
 
-print(itemlist)
 
+print(itemlist)
 discount=[]
 item=[]
 
 for items in itemlist:
     dis=( int(items[2]) * int(items[1]) )/100 
     discount.append(dis)
- 
     item.append(items[0])
 
 print(itemlist)

@@ -3,11 +3,12 @@
 # Example:
 # Input: "programming" → Output: "progamin"
 
-
+ 
 s=input("Enter a string: ").strip()
 sl=list(s)
 old=[]
 new=""
+
 for i in sl:
     if i not in old:
         new+=i

@@ -24,7 +24,7 @@ for i in range(len(totalsubject)):
 
 print(totalsem)
 print(totalsubject)
-print(subject)
+print(subject)  
 
 s=0
 for i in subject:

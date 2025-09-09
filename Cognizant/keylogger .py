@@ -26,7 +26,7 @@
 # For 12, you can take 1,2 that is ab, or you can take l.\\
 
 digits="1234"
-alpha = { str(i): chr(96+i) for i in range(1,27) }
+alpha = { str(i): chr(96+i) for i in range(1,27) } 
 print(alpha)
 n=len(digits)
 result = []

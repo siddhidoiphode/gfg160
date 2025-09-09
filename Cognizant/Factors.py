@@ -1,3 +1,5 @@
+
+
 import sys
 n=int(input().strip())
 if n==0:
@@ -17,7 +19,8 @@ for i in range(1,(n//2)+1 ):
 factors.append(n)
 print(factors)
 
-# Question-14
+
+# Question-14 
 # Problem Statement – Bela  teaches her daughter  to find the factors of a given number.  When she provides a number to her daughter, she should tell the factors of that number.  Help her to do this, by writing a program.  Write a class FindFactor.java and write the main method in it.
 # Note :
 

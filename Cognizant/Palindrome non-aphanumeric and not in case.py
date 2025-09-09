@@ -2,7 +2,7 @@
 # 1.2 Check if a string is a palindrome (ignore case & non-alphanumeric)
 # Problem: Given a string, check if it reads the same forwards and backwards, ignoring case and non-alphanumeric characters.
 # Example:
-# Input: "A man, a plan, a canal: Panama" → Output: True                                                                 (ignore case & non-alphanumeric)means?
+# Input: "A man, a plan, a canal: Panama" → Output: True                                                     (ignore case & non-alphanumeric)means?
 
 
 import re

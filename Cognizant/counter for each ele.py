@@ -3,6 +3,9 @@ s= "siddhi"
 a={}
 a=dict(Counter(s))
 print(a)
-m=max(a, key=a.get)
-print(m)
+
+m=max()
+
+# m=max(a, key=a.get)
+# print(m)
 
