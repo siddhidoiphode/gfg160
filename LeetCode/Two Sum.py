@@ -39,7 +39,7 @@ class Solution:
             hash_map[num] = i
         return []
     
-    
+
 
 # 4. Why [hash_map[target - num], i]?
 # hash_map[target - num] → index of the earlier number

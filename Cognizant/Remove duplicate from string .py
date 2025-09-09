@@ -15,3 +15,4 @@ for i in sl:
         old.append(i)
         
 print("String after removing duplicates:", new)
+

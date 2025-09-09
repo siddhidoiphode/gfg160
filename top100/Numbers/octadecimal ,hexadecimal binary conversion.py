@@ -18,9 +18,11 @@ print("deciaml to Binary number:", bin(decimal))
 # 0o = octal
 
 
+
 print("-----------------------OCTAL TO DECIMAL--------------------------")
 oct1='115'
 print("deciaml number",int(oct1,8))
+
 
 print()
 print("--------------------HEXADECIMAL TO DECIMAL---------------")

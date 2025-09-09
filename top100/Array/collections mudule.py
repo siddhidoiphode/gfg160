@@ -4,6 +4,7 @@ from collections import Counter
 print("______________________________ Dictionary ________________________________________________")
 li=[1,23,2,3,3,23,211,1,1,2,11,2,3,32,3,22]
 lis=Counter(li)
+print(lis)
 print(lis.pop(22))
 print(lis.items())
 print(lis.keys())
@@ -11,7 +12,7 @@ print(lis.values())
 print(lis.get(32))
 print(lis.most_common(2))
 print(lis.popitem())
-print(lis)
+# print(lis)
 
 #DEQUE
 print("____________________________________ Deque _____________________________________________")

@@ -2,12 +2,13 @@
 
 from collections import Counter
 
-class Solution:
-    def uniqueOccurrences(self, arr: List[int]) -> bool: 
-        c = Counter(arr)
-        v = list(c.values())
-        return len(c) == len(set(v))
-
+# class Solution:
+#     def uniqueOccurrences(self, arr: List[int]) -> bool: 
+arr = [1,2,2,1,1,3]
+c = Counter(arr)
+v = list(c.values())
+print(v)
+print(len(c) == len(set(v)))
 
 
 

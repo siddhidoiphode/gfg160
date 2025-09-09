@@ -11,6 +11,7 @@ class Solution:
         return n==1
 
 
+
 # 326. Power of Three
 # Easy
 # Topics
