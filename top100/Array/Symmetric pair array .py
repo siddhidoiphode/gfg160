@@ -10,3 +10,4 @@ for i in range(len(arr)):
         ans.append(arr[i])
 
 print(ans)
+
