@@ -13,7 +13,6 @@ for i in range(n):
     rows=''
     for j in range(n):
         rows += str(start)+"*" 
-        # print(f"{start}*",end="")
         start+=1
     print(rows[:len(rows)-1])
     start= start-(2*n)

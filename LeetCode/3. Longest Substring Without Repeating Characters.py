@@ -1,3 +1,4 @@
+
 def lengthOfLongestSubstring(s):
     seen = set()  # to keep track of characters in the current substring
     max_len = 0   # stores the maximum length found
@@ -11,6 +12,9 @@ def lengthOfLongestSubstring(s):
         max_len = max(max_len, end - start + 1)  # update max length
     
     return max_len
+
+
+
 
 
 

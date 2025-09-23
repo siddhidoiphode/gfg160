@@ -1,13 +1,13 @@
 
 
 from collections import Counter
-class Solution:
-    def majorityElement(self, nums: List[int]) -> int:
-        # c={}
-        c=dict(Counter(nums))
-        ans=max(c,key=c.get)
-        return ans
-
+nums=[1,23,2,9,2,4,11,1,1,23,4,32,45,4,324,21432,5463412,1,2,33,242,1,2,13,4,4,3,43,22,45,5,3]
+c=(Counter(nums))
+        # ans=max(c,key=c.get)
+print(c.most_common())
+freq=max(c,key=c.get)
+    
+print(freq)
 
 
 

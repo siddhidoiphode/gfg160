@@ -14,11 +14,13 @@ class Solution:
             latest=first+second
             first=second
             second=latest
-
+            print(i,'-',latest)
         return latest
 
 obj = Solution()
-result = obj.fib(0)
+print('0\n1')
+result = obj.fib(15)
+
 print("Ans : " , result)
 
 

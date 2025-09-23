@@ -15,6 +15,10 @@ class Solution:
             arr.reverse()
             return
         
+        # Input: arr[] = [2, 4, 1, 7, 5, 0]
+        # Output: [2, 4, 5, 0, 1, 7]
+
+
         for i in range(l-1 , pivot ,-1):
             if arr[i] > arr[pivot]:
                 arr[i] ,arr[pivot] = arr[pivot],arr[i]

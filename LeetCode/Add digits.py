@@ -5,11 +5,11 @@ class Solution:
             sum1=0
             sum1=sum(map(int, str(num)))
             num=sum1
-        return num
+        print(num)
 
 
-
-
+obj=Solution()
+obj.addDigits(168115)
 
 
 

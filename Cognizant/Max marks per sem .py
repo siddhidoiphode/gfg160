@@ -1,7 +1,7 @@
 import sys
 
 totalsem=int(input("Enter no of sem: "))
-totalsubject=[]
+totalsubject=[] 
 print("subject per sem")
 for i in range(totalsem):
     totalsubject.append(int(input()))

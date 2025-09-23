@@ -21,4 +21,8 @@ for i in range(1,n+1):
     print(( s[:]+s[::-1][1:] ).center(col," "))
     s=s[:-1]
     # print(( s[:-i]+s[:-i][::-1][i+1:] ).center(col," "))
-
+"""
+1234321
+ 12321
+  121
+   1"""

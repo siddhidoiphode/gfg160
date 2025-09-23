@@ -6,3 +6,4 @@ li.sort()
 print(li)
 median = li[len(li)//2]
 print(sum(abs(median-num) for num in li))
+

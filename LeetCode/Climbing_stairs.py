@@ -1,14 +1,24 @@
-class Solution:
-    def climbStairs(self, n: int) -> int:
+# class Solution:
+#     def climbStairs(self, n: int) -> int:
         
-        if n<=2 :
-            return n
-        f,l=1,2
-        for i in range(3,n+1):
-            f,l=l,f+l
-        return l
-        
+#         if n<=2 :
+#             return n
+#         f,l=1,2
+#         for i in range(3,n+1):
+#             f,l=l,f+l
+#         return l
 
+n=5  
+if n<=2:
+    print(n)
+f=1
+l=2
+for i in range(n-2):
+    next=f+l
+    f=l
+    l=next
+
+print(l)
 
 
 # 0

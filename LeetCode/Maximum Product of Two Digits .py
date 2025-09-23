@@ -14,9 +14,7 @@ class Solution:
 
 
 # 3536. Maximum Product of Two Digits
-# Easy
-# Topics
-# premium lock icon
+
 # Companies
 # Hint
 # You are given a positive integer n.

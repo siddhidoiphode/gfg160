@@ -10,6 +10,7 @@ class Solution:
 
         if not strs:
             return ""
+        
         m = min(strs , key=len)
         common=""
         for i in range(len(m)):
